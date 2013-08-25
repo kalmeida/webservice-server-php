@@ -30,7 +30,7 @@ interface TaskFuncionario {
 	public function update( EntityFuncionario $funcionario );
 	
 	/**
-	 * Delete um funcionário da lista
+	 * Deleta um funcionário da lista
 	 * @param EntityFuncionario $funcionario
 	 * @return boolen TRUE se o funcionário foi deletado com sucesso
 	 */

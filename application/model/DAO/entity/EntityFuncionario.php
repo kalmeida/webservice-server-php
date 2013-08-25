@@ -1,11 +1,16 @@
 <?php
-namespace application\mode\DAO\entity;
+namespace application\model\DAO\entity;
 
 /**
  * Classe que representa a entidade Funcionário
  * @package application.mode.DAO.entity.EntityFuncionario
  */
 class EntityFuncionario{
+	
+	/**
+	 * @var int
+	 */
+	protected $id;
 	
 	/**
 	 * @var string
@@ -28,7 +33,17 @@ class EntityFuncionario{
 	protected $idFuncao;
 	
 	/**
-	 * Resgata o nome do Funcionário
+	 * @var numeric
+	 */
+	protected $telefone;
+	
+	
+	public function getId(){
+		return $this->id;
+	}
+	
+	/**
+	 * Retorna o nome do Funcionário
 	 * @return string
 	 */
 	public function getNome(){
@@ -57,6 +72,21 @@ class EntityFuncionario{
 	 */
 	public function getIdFuncao(){
 		return $this->idFuncao;
+	}
+		
+	/**
+	 * Retorna o telefone do Funcionário
+	 * @return numeric
+	 */
+	public function getTelefone(){
+		return $this->telefone;
+	}
+	 
+	/**
+	 * Seta o ID do Funcionário
+	 */
+	public function setId( $id ){
+		$this->id = intval ($id );
 	}
 	
 	/**
@@ -90,5 +120,14 @@ class EntityFuncionario{
 	public function setIdFuncao( $idFuncao ){
 		$this->idFuncao = $idFuncao;
 	}
+	
+	/**
+	 * Retorna o telefone do Funcionário
+	 * @return numeric
+	 */
+	public function getTelefone(){
+		return $this->telefone;
+	}
+	
 }
 ?>

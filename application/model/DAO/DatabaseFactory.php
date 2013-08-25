@@ -21,7 +21,7 @@ class DatabaseFactory{
 	public function __construct(){
 		try{		
 			self::$pdo = new PDO(
-				sprintf('%s:host=%s;dbname=%s', $this->srv, $this->host, $this->dbName),
+				sprintf('%s:host=%s;dbname=%s;charset=utf8', $this->srv, $this->host, $this->dbName),
 				$this->userName,
 				$this->passwod,
 				array( PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION )
