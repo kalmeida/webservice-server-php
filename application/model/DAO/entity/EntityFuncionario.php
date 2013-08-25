@@ -125,7 +125,7 @@ class EntityFuncionario{
 	 * Retorna o telefone do Funcionário
 	 * @return numeric
 	 */
-	public function getTelefone(){
+	public function setTelefone(){
 		return $this->telefone;
 	}
 	
