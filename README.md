@@ -1,4 +1,4 @@
-webservice-server-php
+WebService - Server
 =====================
 
-Repositório de estudo para uma aplicação PHP Webservice
+Repositório de estudo para uma aplicação PHP WebService
