@@ -122,7 +122,7 @@ class EntityFuncionario{
 	}
 	
 	/**
-	 * Retorna o telefone do Funcionário
+	 * Seta o telefone do Funcionário
 	 * @return numeric
 	 */
 	public function setTelefone(){
