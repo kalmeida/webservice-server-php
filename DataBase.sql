@@ -38,7 +38,7 @@ INSERT INTO Funcionario(Id, Nome, Idade, Email, IdFuncao) VALUES(6, 'Marcos Ferr
 INSERT INTO Funcionario(Id, Nome, Idade, Email, IdFuncao) VALUES(7, 'Joelma Ferreira', 32, 'joelma@email.com.br', 1);
 INSERT INTO Funcionario(Id, Nome, Idade, Email, IdFuncao) VALUES(8, 'Fernanda Gular', 22, 'fernanda@email.com.br', 4);
 INSERT INTO Funcionario(Id, Nome, Idade, Email, IdFuncao) VALUES(9, 'Mario Mendes', 37, 'mario@email.com.br', 4);
-INSERT INTO Funcionario(Id, Nome, Idade, Email, IdFuncao) VALUES(10, 'Jão Batista', 35, 'joao.batista@email.com.br', 2);
+INSERT INTO Funcionario(Id, Nome, Idade, Email, IdFuncao) VALUES(10, 'Jão Almeida', 35, 'joao.almeida@email.com.br', 2);
 
 /** Cria a tabela Telefone **/
 CREATE TABLE IF NOT EXISTS Telefone(
