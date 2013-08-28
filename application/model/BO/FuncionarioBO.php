@@ -52,7 +52,7 @@ class FuncionarioBO{
 		if( $funcionario ){
 			$telefone = $this->telefoneDAO->read( $this->entityFuncionario->getId() ) ;
 			 
-			$arrFuncionario[] = array(
+			$arrFuncionario = array(
 				'Nome' => $funcionario->Nome,
 				'Idade' => $funcionario->Idade,
 				'Email' => $funcionario->Email,
