@@ -63,3 +63,6 @@ INSERT INTO Telefone(IdFuncionario, DDD, Numero) VALUES(1, 11, 944115522);
 INSERT INTO Telefone(IdFuncionario, DDD, Numero) VALUES(3, 11, 963258741);
 INSERT INTO Telefone(IdFuncionario, DDD, Numero) VALUES(4, 11, 987654321);
 INSERT INTO Telefone(IdFuncionario, DDD, Numero) VALUES(6, 11, 959872547);
+
+CREATE USER 'user' IDENTIFIED BY PASSWORD '';
+GRANT SELECT, UPDATE, INSERT ON WebService.* TO 'user';
